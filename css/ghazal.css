@@ -73,6 +73,9 @@
     position: fixed;
     width: 100%;
     z-index: 999;
+  top: 0;
+  
+  
     
     
   }
@@ -299,7 +302,7 @@
       text-align: center;
       font-size: 40px;
       color: var(--main-color);
-      /* margin-top: -50px; */
+      
       position: relative;
       line-height: 0.3;
       
@@ -325,7 +328,8 @@
     .about_me  .container .s-container {
       margin-top: 100px;
       display: flex;
-      gap: 50px;
+      gap: 20px;
+      padding-left: 20px;
       align-items: center;
     }
     
@@ -368,6 +372,7 @@
         padding-top: 50px;
         font-size: 25px;
       }
+    }
 
       .about_me  .text h1 {
         font-size: 25px;
@@ -380,7 +385,8 @@
       .about_me .container {
         padding-left: 0px;
       }
-   
+      .s-container i {
+        padding-bottom: 20px;
     }
   
 /* end about me  */
@@ -702,6 +708,9 @@
     justify-content: center; 
     gap: 30px; 
   }
+  .contact {
+    padding-top: 150px;
+  }
 
   .contact-form {
     max-width: 350px; 
@@ -741,9 +750,19 @@
     margin: 0 5px;
   }
   .contact .main-header {
-    font-size: 25px;
+    font-size: 20px;
   }
+  .contact .main-header p {
+    font-size: 12px;
+ 
+  }
+  .contact .main-header {
+    line-height: 1;
+  }
+
 }
+
+
 
 
 /* end contact  */
@@ -800,45 +819,6 @@ footer p {
 .social-icons a:hover {
   color: #ececec;
 }
-/* Responsive Design */
-@media (max-width: 991px) {
-  footer {
-    font-size: 14px;
-    padding: 15px 0;
-  }
 
-  .contact-info p {
-    font-size: 13px;
-  }
-
-  .social-icons a {
-    font-size: 18px;
-    margin: 0 8px;
-  }
-}
-
-@media (max-width: 768px) {
-  footer {
-    font-size: 13px;
-    padding: 10px 0;
-  }
-
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info p {
-    font-size: 12px;
-  }
-
-  .social-icons {
-    margin-top: 5px;
-  }
-
-  .social-icons a {
-    font-size: 16px;
-    margin: 0 5px;
-  }
-}
 
 
